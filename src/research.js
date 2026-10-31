@@ -1,3 +1,4 @@
+import './analytics.js';
 import { marked } from 'marked';
 import notes from '../research/usd259-bond-2026.md?raw';
 

@@ -1,3 +1,4 @@
+import './analytics.js';
 import { estimate, parseHomeValue } from './calculator.js';
 const input = document.querySelector('#home-value');
 const slider = document.querySelector('#home-value-slider');
