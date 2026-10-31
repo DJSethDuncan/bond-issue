@@ -1,0 +1,18 @@
+{
+  "name": "usd259-bond-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && mkdir -p dist/research && cp research/usd259-bond-2026.md dist/research/",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "vite": "^7.2.2"
+  },
+  "dependencies": {
+    "marked": "^18.1.2"
+  }
+}
